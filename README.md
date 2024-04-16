@@ -18,11 +18,11 @@ The process can be divided into 4 main consecutive stages:
 - It is worth mentioning that the COLMAP part is built in the Instant-NGP project.
 - Download [MeshLab](https://www.meshlab.net/) to simullate the result in a 3D environment.
 
-## From video file to ordered indexed frames - OpenCV:
+### From video file to ordered indexed frames - OpenCV:
 
-## From indexed frames into valid instant-ngp NeRF input (.json) - COLMAP:
+### From indexed frames into valid instant-ngp NeRF input (.json) - COLMAP:
 
-## From indexed frames and COLMAP output into a NeRF-rendered scene - Instant-ngp by NVIDIA:
+### From indexed frames and COLMAP output into a NeRF-rendered scene - Instant-ngp by NVIDIA:
 
-## From rendered scene into 3D (.STL) object - Instant-ngp and MeshLab:
+### From rendered scene into 3D (.STL) object - Instant-ngp and MeshLab:
 
