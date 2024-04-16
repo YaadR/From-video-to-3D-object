@@ -6,8 +6,10 @@ This project will take you step by step to create a 3D object file from a video 
 The process can be divided into 4 main consecutive stages:
 1. From video file to ordered indexed frames - OpenCV
 2. From indexed frames into valid instant-ngp NeRF input (.json) - COLMAP 
+  - Provided a tool that might be helpful is a visualization of the camera position from the COLMAP output
 3. From indexed frames and COLMAP output into a NeRF-rendered scene - Instant-ngp by NVIDIA
 4. From rendered scene into 3D (.STL) object - Instant-ngp and MeshLab
+
 
 ## Installation:
 - First and foremost you need a GPU for this project that is compatible with [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit).
@@ -15,4 +17,12 @@ The process can be divided into 4 main consecutive stages:
 - All system requirements should be aligned and based on the configuration of Instant-NGP as it is the most delicate part of the process.
 - It is worth mentioning that the COLMAP part is built in the Instant-NGP project.
 - Download [MeshLab](https://www.meshlab.net/) to simullate the result in a 3D environment.
+
+## From video file to ordered indexed frames - OpenCV:
+
+## From indexed frames into valid instant-ngp NeRF input (.json) - COLMAP:
+
+## From indexed frames and COLMAP output into a NeRF-rendered scene - Instant-ngp by NVIDIA:
+
+## From rendered scene into 3D (.STL) object - Instant-ngp and MeshLab:
 
