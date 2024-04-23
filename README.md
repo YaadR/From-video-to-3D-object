@@ -19,6 +19,7 @@ The process can be divided into 4 main consecutive stages:
 - Download [MeshLab](https://www.meshlab.net/) to simullate the result in a 3D environment.
 
 ### From video file to ordered indexed frames - OpenCV:
+After download and installation of the [Instant-NGP](https://github.com/NVlabs/instant-ngp) project inset the current project files in the Instant-NGP directory:
 
 ### From indexed frames into valid instant-ngp NeRF input (.json) - COLMAP:
 
