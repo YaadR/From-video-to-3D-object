@@ -8,6 +8,7 @@ From video file to a 3D object via NeRF  - the project is based on instant-ngp
     <img src="data/meta data/MeshLabres-gif.gif" width="350" />
   </a>
 </p>
+
 ## Description:
 This project will take you step by step to create a 3D object file from a video input.
 The process can be divided into 4 main consecutive stages:
