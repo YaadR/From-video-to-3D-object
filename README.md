@@ -2,10 +2,10 @@
 From video file to a 3D object via NeRF  - the project is based on instant-ngp
 <p float="center">
   <a >
-    <img src="data/meta data/DroneAruco-gif.gif" width="500" />
+    <img src="data/meta data/DroneAruco-gif.gif" width="350" />
   </a>
   <a >
-    <img src="data/meta data/MeshLabres-gif.gif" width="500" />
+    <img src="data/meta data/MeshLabres-gif.gif" width="350" />
   </a>
 </p>
 ## Description:
@@ -56,10 +56,10 @@ This video demonstrates how to use the Instant-NGP built-in API to produce a 3D 
 The 3D object [example](data/Results/base/base.obj) - an .obj file that can be upload and open in MeshLab
 <p float="center">
   <a >
-    <img src="data/meta data/NeRFenv-gif.gif" width="500" />
+    <img src="data/meta data/NeRFenv-gif.gif" width="350" />
   </a>
   <a >
-    <img src="data/meta data/MeshLabres-gif.gif" width="500" />
+    <img src="data/meta data/MeshLabres-gif.gif" width="350" />
   </a>
 </p>
 
