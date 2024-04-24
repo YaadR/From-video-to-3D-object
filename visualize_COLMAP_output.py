@@ -87,7 +87,9 @@ def plot_camera_positions_with_direction(json_data):
 
 
 # Example usage:
-# Assuming your JSON data is stored in a file called 'data.json'
+# Assuming your JSON data is stored in a file called 'transforms.json'
+
+# Uncomment the following for camera positions visualization:
 
 # with open('transforms.json', 'r') as file:
 #     json_data = file.read()

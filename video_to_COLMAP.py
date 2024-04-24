@@ -12,10 +12,9 @@ if __name__ == "__main__":
     # Get the directory of the current script
     # Define the project root directory
     # PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-
-    # Use the relative path to access files or directories within the project
     # frames_save_path = os.path.join(PROJECT_ROOT, "\instant-ngp\data\\v2obj\\frames")
     # frames_save_path = PROJECT_ROOT + r"\instant-ngp\data\v2obj\frames"
+
     frames_save_path = r".\instant-ngp\data\v2obj\frames"
     if not os.path.exists(frames_save_path):
         os.makedirs(frames_save_path)
@@ -78,16 +77,6 @@ if __name__ == "__main__":
 
         # Move the file to the destination directory
         shutil.move(transforms_file, destination_dir)
-
-    # step 4 - train NERF network (instant-ngp)
-    # subprocess.run(['python', './scripts/run.py /outputs'])
-
-    # step 5 - find the missing posses
-    # subprocess.run(['python', './cut_overlap_poses.py'])
-    # subprocess.run(['python', './Interpolation1.py'])
-
-    # step 6 - extract missing posses from the NERF
-    # subprocess.run(['python', './extract_posses.py'])
 
 
 
