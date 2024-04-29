@@ -14,7 +14,7 @@ This project will take you step by step to create a 3D object file from a video 
 The process can be divided into 4 main consecutive stages:
 1. From video file to ordered indexed frames - OpenCV
 2. From indexed frames into valid instant-ngp NeRF input (.json) - COLMAP 
-  - Provided a tool that might be helpful is a visualization of the camera position from the COLMAP output
+  - A tool for visualization of the camera position based on the COLMAP output is provided
 3. From indexed frames and COLMAP output into a NeRF-rendered scene - Instant-ngp by NVIDIA
 4. From rendered scene into 3D (.STL or .obj) object - Instant-ngp and MeshLab
 
@@ -28,13 +28,14 @@ The process can be divided into 4 main consecutive stages:
 
 ### From video file to ordered indexed frames - OpenCV:
 After downloading and installing the [Instant-NGP](https://github.com/NVlabs/instant-ngp) project, copy and paste the current project files into the Instant-NGP directory:
-[video_to_frames.py](video_to_frames.py)
-[video_to_COLMAP.py](video_to_COLMAP.py)
-[visualize_COLMAP_output.py](visualize_COLMAP_output.py)
+* [video_to_frames](video_to_frames.py)
+* [video_to_COLMAP](video_to_COLMAP.py)
+* [visualize_COLMAP_output](visualize_COLMAP_output.py)
+  
 To split the video file to frames - run video_to_frames.py
 Notice - the video to frames is embedded in the video to COLMAP file in the next part.
 ### From indexed frames into valid instant-ngp NeRF input (.json) - COLMAP:
-To create a valid NeRF input - i.e video to COLMAP run the script [video_to_COLMAP.py](video_to_COLMAP.py)
+To create a valid NeRF input - i.e video to COLMAP run the script [video_to_COLMAP](video_to_COLMAP.py)
 The process will run as follows:
 1. You will be asked for the path to the source video file.
 2. You will be given the current fps of the video the total number of frames, and be asked for the preferred frame sample rate per second - for example: 2 fps.
